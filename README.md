@@ -10,4 +10,4 @@ A browser extension for inverting diagrams in GeoGebra.
 2. Go to chrome://extensions and turn on developer mode.
 3. Click 'Load unpacked' and load the extension.
 
-**Note:** You might need to click the button twice for it to work. You also might have to close some annnoying popups. I'm working on fixing this.
+**Note:** You might need to click the button twice for it to work. I'm working on fixing this.
