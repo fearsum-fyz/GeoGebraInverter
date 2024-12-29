@@ -34,5 +34,15 @@ window.addEventListener("GeoGebraInversion", (event) => {
         }
     });
     
+    const intervalId = setInterval(() => {
+        const button = document.querySelector("button.dialogTextButton");
+        
+        if (!button) {
+            clearInterval(intervalId); // Stop the interval when button is not found
+        } else {
+            button.click(); // Click the button
+        }
+    }, 100); // Delay of 0.1 second between clicks
+
     alert("Inversion completed!");
 });
